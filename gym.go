@@ -42,19 +42,11 @@ func main() {
 	}
 
 	for contador == 0 {
-		/*fmt.Println("Binvenido a Strong System \n" +
-		"Que desea hacer\n\tAdministrar clientes : 1\n\t" +
-		"Administrar Consultas: 2\n\tAdministrar mensualidades: 3\n\t" +
-		"Crear respaldo: 5\n\t" +
-		"Salir de sistema :6\n\t")*/
-
 		respuesta := dmnuw.Parametrs("Administrar Clientes : 1",
 			"Consultar Clientes: 2",
 			"Mensualidades de Hoy : 3",
 			"Crear Respaldo de datos: 4",
 			"Salir de programa : 5")
-		//respuesta = dmnuw.Onlystring(respuesta)
-		//fmt.Println(len(respuesta))
 		r, _ := strconv.Atoi(respuesta)
 		fmt.Println(r)
 		switch r {
@@ -79,10 +71,6 @@ func main() {
 			dormir()
 			limpiar()
 		}
-
-		/*if respuesta == "5" {
-			break
-		}*/
 
 	}
 
