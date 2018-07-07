@@ -1,0 +1,3 @@
+nombre : Juan Pato comio edad: 35 cellular : no tiene dia de pago: 6 fecha inscripcion: 2018-07-06 22:17:18.
+nombre : Pedro Fernands edad: 19 cellular : 54362 dia de pago: 6 fecha inscripcion: 2018-07-06 22:18:24.
+nombre : Joeeeel Jooooeeel edad: 34 cellular : 15674321 dia de pago: 6 fecha inscripcion: 2018-07-06 22:24:48.
